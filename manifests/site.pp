@@ -113,9 +113,9 @@ node default {
   }
 
   # set the contents of the private.xml file.
-  keyremap4macbook::private_xml{ 'private.xml':
-    content => ''
-  }
+  # keyremap4macbook::private_xml{ 'private.xml':
+  #   content => ''
+  # }
 
   include iterm2::stable
   include macvim

@@ -36,3 +36,16 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "osx",              "1.6.0"
+github "zsh",              "1.0.0"
+github "keyremap4macbook", "1.0.4"
+github "iterm2",           "1.0.3"
+github "macvim",           "1.0.0"
+github "chrome",           "1.1.1"
+github "firefox",          "1.1.3"
+github "opera",            "0.3.0"
+github "btsync",           "1.0.0"
+github "viscosity",        "1.0.0"
+github "alfred",           "1.1.5"
+github "droplr",           "1.0.1"

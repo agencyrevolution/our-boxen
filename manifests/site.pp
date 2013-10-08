@@ -121,7 +121,7 @@ node default {
   include macvim
 
   include chrome
-  include chrome::canaryA
+  include chrome::canary
 
   include firefox
   include firefox::nightly

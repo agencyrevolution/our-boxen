@@ -90,14 +90,11 @@ node default {
   }
 
   # osx
-  # include osx::recovery_message { 'If this Mac is found, please call 800-606-0477': }
-  include osx::global::key_repeat_delay
+  osx::recovery_message { 'If this Mac is found, please call 800-606-0477': }
 
   class { 'osx::global::key_repeat_delay':
     delay => 300
   }
-
-  include osx::global::key_repeat_rate
 
   class { 'osx::global::key_repeat_rate':
     rate => 23
